@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /tls
+  port: 8443
+  ssl:
+    key-store: classpath:myserver_keystore.jks
+    key-store-password: 12345678
+    key-password: 12345678
+    key-store-type: JKS
